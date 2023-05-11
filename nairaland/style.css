@@ -1,0 +1,58 @@
+*{
+    font-family: Open Sans, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+}
+
+
+.container{
+    max-width: 900px;
+    margin: auto;
+}
+
+.header{
+    text-align: center;
+    border: 1px solid grey;
+    border-radius: 15px;
+    padding: 15px 0px;
+}
+
+.main{
+    border: 1px solid grey;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.div{
+    max-width: 900px;
+    margin: auto;
+}
+
+.h3{
+    background: #e8ece0;
+    padding: 10px 0px;
+}
+
+.main1{
+   display: flex; 
+   padding: 15px 5px;
+}
+
+a:link{
+    color:aqua ;
+}
+
+a:visited{
+    color: purple;
+}
+ 
+a:hover{
+    color: hotpink;
+    text-decoration: underline;
+}
+
+a:active{
+    color: red;
+}
+
+.links::first-letter{
+   color: hotpink; 
+}
